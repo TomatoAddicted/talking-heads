@@ -6,11 +6,11 @@ GENERATED_DIR = r'generated_img'
 
 # Dataset parameters
 FEATURES_DPI = 100
-K = 8
+K = 1 #8
 
 # Training hyperparameters
 IMAGE_SIZE = 256  # 224
-BATCH_SIZE = 3
+BATCH_SIZE = 1 #3
 EPOCHS = 1000
 LEARNING_RATE_E_G = 5e-5
 LEARNING_RATE_D = 2e-4
